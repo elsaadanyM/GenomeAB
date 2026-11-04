@@ -1,0 +1,73 @@
+# --- Customer data (never commit) ---
+data/
+*.fasta
+*.fa
+*.fna
+*.faa
+*.fai
+*.gzi
+*.vcf
+*.vcf.gz
+*.tbi
+*.csi
+*.gff
+*.gff3
+*.gff.gz
+*.gfa
+*.bed.gz
+*.2bit
+
+# BLAST databases
+*.n??
+*.p??
+*.ndb
+*.pdb
+*.not
+*.ntf
+*.nto
+*.pot
+*.ptf
+*.pto
+*.njs
+*.pjs
+
+# Excel files (can keep small test templates in a templates/ folder)
+*.xlsx
+*.xls
+!**/templates/*.xlsx
+
+# --- Secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# --- R ---
+.Rhistory
+.RData
+.Rproj.user/
+
+# --- Node / frontend ---
+node_modules/
+dist/
+build/
+.vite/
+npm-debug.log*
+
+# --- Editors and OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Notebooks and logs ---
+.ipynb_checkpoints/
+*.log

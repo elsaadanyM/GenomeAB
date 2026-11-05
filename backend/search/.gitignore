@@ -1,0 +1,20 @@
+# Python artifacts
+venv/
+__pycache__/
+*.py[cod]
+
+# Large Genomic Assets & BLAST Indices (DO NOT COMMIT)
+*.fa
+*.fasta
+*.fna
+*.nsq
+*.nhr
+*.nin
+*.ndb
+*.ntf
+*.nto
+*.nog
+*.nos
+*.not
+sample_output.json
+test*.fa
